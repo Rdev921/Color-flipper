@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+li,
+a,
+button,
+h2{
+    font-size: 0.875rem;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    color:hsl(209, 61%, 16%);
+    text-decoration: none;
+}
+
+
+nav{
+height: 3rem;
+display: grid;
+align-items: center ;
+background-color: rgb(254, 254, 255);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.nav-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+.nav-center h4{
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.25;
+    text-transform: capitalize;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.1rem;
+}
+
+.nav-center li{
+    display: inline-block;
+    padding: 0px 10px;
+
+}
+main{
+    min-height: calc(100vh - 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.container{
+   text-align: center;
+}
+
+.container h2{
+  background-color: #000000e7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.btn-hero{
+    cursor: pointer;
+    transition:all .5s ease 0s;
+    font-size: 30px;
+    padding: 0.75rem 1.25rem;
+    color: black;
+    letter-spacing: 3px;
+    border-radius: 10px;
+    border-color: black;
+}
+.btn-hero:hover{
+    color: white;
+    background-color: black;
+}
+
+
+ 
